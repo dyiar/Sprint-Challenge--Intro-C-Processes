@@ -7,3 +7,5 @@ commandline: commandline.c
 
 testdir: testdir.c
 	gcc -Wall -Wextra -o $@ $^
+
+make
